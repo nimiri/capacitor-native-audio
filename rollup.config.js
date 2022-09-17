@@ -17,6 +17,11 @@ export default {
       sourcemap: true,
       inlineDynamicImports: true,
     },
+    {
+      file: 'dist/index.js',
+      format: 'cjs',
+      sourcemap: true
+    }
   ],
   external: ['@capacitor/core'],
 };
